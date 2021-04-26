@@ -1,0 +1,39 @@
+body{
+    background: #171717;
+}
+
+#box {
+    font-family: cursive;
+    background: #111111;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 210px;
+    left: 500px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#box:focus{
+    background: #3a3a3a;
+}
+
+#submit{
+    cursor: text;
+    background: #302f2f;
+    font-family: cursive;
+    border-radius: 12px;
+    position: absolute;
+    color: white;
+    top: 260px;
+    left: 570px;
+    padding: 3px 12px;
+    outline: none;
+}
+
+
+
+#submit:hover{
+    cursor: pointer;
+}
